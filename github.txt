@@ -1,0 +1,21 @@
+Git bash on project folder
+-> git config --global user.name ___
+-> git config --global user.email " @xyz.com"
+->touch .gitignore (creates a new folder in which you can store any folder that you donot want to push)
+->git init (initialize your projects and creates a .git folder)
+-> git add . (transfers all your projects to staging area)
+-> git commit -m "Initial commit
+-> git status 
+-> git remote add origin ___(paste ssh link)
+
+add authentication in git hub
+-> settings -> ssh and gpg -> titlte pc 
+search -> generate ssh key git hub -> generate new for windows
+-> copy command and paste in git bash
+
+
+gitbash
+-> cat paste key path
+-> copy the key and add it on git hub
+-> now push -> git push origin master
+
